@@ -5,7 +5,6 @@ module.exports = {
   singleQuote: true, // 字符串是否使用单引号
   semi: false, // 行尾是否使用分号，默认为true
   trailingComma: 'none', // 是否使用尾逗号
-  bracketSpacing: true, // 对象大括号直接是否有空格，默认为true，效果：{ foo: bar }
   endOfLine: 'auto', // 保留在 Windows 和 Unix 下的换行符
   arrowParens: 'avoid' // 箭头函数参数的括号
 }

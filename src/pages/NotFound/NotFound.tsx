@@ -1,8 +1,6 @@
 import React from 'react'
-import './NotFound.css'
 
-function App() {
-  return <div className="App">nono</div>
+const App = function () {
+  return <div className="App">5222255</div>
 }
-
 export default App

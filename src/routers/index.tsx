@@ -1,7 +1,7 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "../pages/about/about";
-import About from "../pages/home/home";
-import NotFound from "../pages/NotFound/NotFound";
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from '../pages/about/about'
+import About from '../pages/home/home'
+import NotFound from '../pages/NotFound/NotFound'
 
 const Router = () => (
   <BrowserRouter>
@@ -12,6 +12,6 @@ const Router = () => (
       <Route path="/*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>
-);
+)
 
-export default Router;
+export default Router
